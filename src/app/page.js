@@ -18,7 +18,7 @@ function Home() {
     DATABASE_PATH,
     JSON.stringify({ hits })
   );
-
+  console.log('HELP')
   return (
     <main>
       <h1>Welcome!</h1>
